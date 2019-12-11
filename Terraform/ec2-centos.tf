@@ -5,7 +5,7 @@ data "aws_ami" "centos" {
 
   filter {
     name   = "name"
-    values = ["CentOS Linux 7 x86_64 HVM EBS *"]
+    values = ["CentOS Linux new 7 x86_64 HVM EBS *"]
   }
 
   filter {
