@@ -4,7 +4,7 @@ data "aws_ami" "centos" {
   most_recent = true
 
   filter {
-    name   = "name"
+    name   = "name is centos"
     values = ["CentOS Linux new 7 x86_64 HVM EBS *"]
   }
 
